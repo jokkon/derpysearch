@@ -1,19 +1,23 @@
 <h1>derpysearch</h1>
 
+<head>
+<link rel="stylesheet" type="text/css" href="derpy.css">
+</head>
+
 <form id="derpysearch">
   <input type="text" name="derpterm" value="derpy">
-  <button id="writy_functionality">writy functionality</button>
+  <button id="writey_functionality">writey functionality</button>
   <button id="full_functionality">full functionality</button>
 </form>
 
 <script>
-document.getElementById("writy_functionality").onclick = function() {writy();};
-document.getElementById("full_functionality").onclick = function() {writy(); printy();};
+document.getElementById("writey_functionality").onclick = function() {writey();};
+document.getElementById("full_functionality").onclick = function() {writey(); printy();};
 
 var variable = document.getElementById("derpterm").value
 
 
-function writy() {
+function writey() {
   document.write("glargh");
 }
 
@@ -21,7 +25,7 @@ function printy() {
   window.print();
 }
 
-function writyprinty() {
+function writeyprinty() {
   document.write("variable");
   window.print();
 }

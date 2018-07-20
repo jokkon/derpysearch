@@ -1,0 +1,31 @@
+h1 {
+  position: 30%;
+  margin-left: 50px;
+}
+
+body {
+  background-image: url("derpy.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+# background-size: 500px 500px;
+  background-position: 85%;
+  background-size: contain;
+}
+
+input[type=text], select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
