@@ -2,14 +2,27 @@
 
 <form id="derpysearch">
   <input type="text" name="derpterm" value="derpy">
-
-<button id="searchy">searchy</button>
+  <button id="writy_functionality">writy functionality</button>
+  <button id="full_functionality">full functionality</button>
+</form>
 
 <script>
-document.getElementById("searchy").onclick = function() {searchy()};
+document.getElementById("writy_functionality").onclick = function() {writy();};
+document.getElementById("full_functionality").onclick = function() {writy(); printy();};
 
-function searchy() {
-    document.write("derpysearch!");
-    window.print();
+var variable = document.getElementById("derpterm").value
+
+
+function writy() {
+  document.write("glargh");
+}
+
+function printy() {
+  window.print();
+}
+
+function writyprinty() {
+  document.write("variable");
+  window.print();
 }
 </script>
