@@ -1,17 +1,3 @@
-<h1>derpysearch</h1>
-<head>
-<script type="text/javascript" src="derpy.js"></script>
-</head>
-
-<body>
-<form id="derpysearch">
-  <input type="text" name="derpterm" value="derpy">
-  <button id="writy_functionality">writy functionality</button>
-  <button id="full_functionality">full functionality</button>
-</form>
-</body>
-
-<script>
 document.getElementById("writy_functionality").onclick = function() {writy();};
 document.getElementById("full_functionality").onclick = function() {writy(); printy();};
 
@@ -30,4 +16,3 @@ function writyprinty() {
   document.write("variable");
   window.print();
 }
-</script>
