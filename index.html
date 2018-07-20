@@ -4,11 +4,17 @@
 <link rel="stylesheet" type="text/css" href="derpy.css">
 </head>
 
-<form id="derpysearch">
-  <input type="text" name="derpterm" value="derpy">
-  <button id="writey_functionality">writey functionality</button>
-  <button id="full_functionality">full functionality</button>
+
+<form id="derpysearch" action="javascript:;" onsubmit="writeyprintey()">
+  <input type="text" id="derpterm" name="derpterm" placeholder="derpy..?">
+  <input type="submit" id="writey_functionality" value="writey_functionality">
+  <input type="submit" id="full_functionality" value="full_functionality">
 </form>
+
+
+
+
+
 
 <script>
 document.getElementById("writey_functionality").onclick = function() {writey();};
