@@ -6,38 +6,25 @@
 
 <body>
 <p id="textbubble">
-<form id="derpysearch" action="javascript:;" onsubmit="writeyprintey()">
+<form id="derpysearch">
   <input type="text" size="40" id="derpterm" name="derpterm" placeholder="derpy..?"><br>
-  <input type="submit" id="writey_functionality" value="writey_functionality">
   <input type="submit" id="full_functionality" value="full_functionality">
 </form>
 </p>
 </body>
 
 <div class="footer">
-  <p>this is all released under the derpy license</p>
+  <p>this is all released under the derpy license in 2018</p>
 </div>
 
-
-
-
 <script>
-document.getElementById("writey_functionality").onclick = function() {writey();};
 document.getElementById("full_functionality").onclick = function() {writey(); printy();};
-
-var variable = document.getElementById("derpterm").value
-
 
 function writey() {
   document.write("glargh");
 }
 
 function printy() {
-  window.print();
-}
-
-function writeyprinty() {
-  document.write("variable");
   window.print();
 }
 </script>
