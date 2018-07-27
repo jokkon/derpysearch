@@ -1,24 +1,34 @@
-<h1>derpysearch</h1>
+<!doctype html>
+
+<html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="derpy.css">
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="derpy.css">
+	<title>derpysearch</title>
 </head>
 
 <body>
-<p id="textbubble">
-<form id="derpysearch">
-  <input type="text" size="40" id="derpterm" name="derpterm" placeholder="derpy..?"><br>
-  <input type="submit" id="full_functionality" value="searchy!">
-</form>
-</p>
-</body>
+
+	<div class="bg">
+	<div class="fg">
+	<br><br><br><br><br><br>
+	
+	<form id="derpysearch" action="javascript:;" onsubmit="writeyprintey()">
+		<h1>derpysearch</h1>
+		<input type="text" size="50" id="derpterm" name="derpterm" placeholder="derpy..."><br>
+		<input type="submit" id="searchy" value="searchy?">
+	</form>
+	</div>
+	</div>
 
 <div class="footer">
-  <p>this is all released under the derpy license in 2018</p>
+	this is all released under the <a href="https://www.youtube.com/watch?v=wxB_yBb3pHc">derpy license</a> in 2018
 </div>
 
 <script>
-document.getElementById("full_functionality").onclick = function() {writey(); printy();};
+document.getElementById("searchy").onclick = function() {writey();};
+
 
 function writey() {
   document.write("glargh");
@@ -28,3 +38,7 @@ function printy() {
   window.print();
 }
 </script>
+
+</body>
+
+</html
