@@ -1,21 +1,30 @@
+<!doctype html>
+
+<html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="derpy.css">
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="derpy.css">
+	<title>derpysearch</title>
 </head>
 
 <body>
-  <div class="bg">
-  <div class="fg">
-    <br><br><br><br><br><br>
-    <form id="derpysearch" action="javascript:;" onsubmit="writeyprintey()">
-      <h1>derpysearch</h1>
-      <input type="text" size="50" id="derpterm" name="derpterm" placeholder="derpy..?"><br>
-      <input type="submit" id="searchy" value="searchy?">
-    </form>
-  </div>
-  </div>
-</body>
 
-<div class="footer">this is all released under the <a href="https://www.youtube.com/watch?v=wxB_yBb3pHc">derpy license</a> in 2018</div>
+	<div class="bg">
+	<div class="fg">
+	<br><br><br><br><br><br>
+	
+	<form id="derpysearch" action="javascript:;" onsubmit="writeyprintey()">
+		<h1>derpysearch</h1>
+		<input type="text" size="50" id="derpterm" name="derpterm" placeholder="derpy..."><br>
+		<input type="submit" id="searchy" value="searchy?">
+	</form>
+	</div>
+	</div>
+
+<div class="footer">
+	this is all released under the <a href="https://www.youtube.com/watch?v=wxB_yBb3pHc">derpy license</a> in 2018
+</div>
 
 <script>
 document.getElementById("searchy").onclick = function() {writey();};
@@ -36,3 +45,7 @@ function writeyprinty() {
   window.print();
 }
 </script>
+
+</body>
+
+</html
