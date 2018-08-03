@@ -5,6 +5,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="derpy.css">
+	<script type="text/javascript" src="printer.js"></script>
 	<title>derpysearch</title>
 </head>
 
@@ -14,7 +15,7 @@
 	<div class="fg">
 	<br><br><br><br><br><br>
 	
-	<form id="derpysearch" action="javascript:;" onsubmit="writeyprintey()">
+	<form id="derpysearch" action="javascript:;" onsubmit="return writeyprinty()">
 		<h1>derpysearch</h1>
 		<input type="text" size="50" id="derpterm" name="derpterm" placeholder="derpy..."><br>
 		<input type="submit" id="searchy" value="searchy?">
@@ -25,19 +26,6 @@
 <div class="footer">
 	this is all released under the <a href="https://www.youtube.com/watch?v=wxB_yBb3pHc">derpy license</a> in 2018
 </div>
-
-<script>
-				document.getElementById("searchy").onclick = function() {writey(); printy();};
-
-
-function writey() {
-  document.write("hurr durr hurr durr hurr durr");
-}
-
-function printy() {
-  window.print();
-}
-</script>
 
 </body>
 
